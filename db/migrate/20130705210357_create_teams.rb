@@ -7,6 +7,7 @@ class CreateTeams < ActiveRecord::Migration
       t.integer :zip_code
       t.string :phone_number
       t.string :sponsor
+      t.string :location
       t.timestamps
     end
   end
